@@ -19,25 +19,32 @@ Write a function that creates a list. The function should create the head of the
 void create(list_ptr &list)
 Task 2.
 Create a function that adds a new person to the queue in the position after person "o".
+
 void insert(node_t *o,int x)
 Task 3.
 Create a function that prints all the elements of the list. The function parameter is a pointer to the head of the list (in short: a pointer to the list).
 void print(node_t *list)
+
 Task 4.
 Create a function that checks if the given element x is in the list. The pointer to the head is passed as a function parameter.
 bool found(node_t *list, int x)
+
 Task 5.
 Write a function that deletes the element that is after the element pointed by the pointer p. (so we delete the element next to the one pointed by p). We need to check if such an element exists.
 void delete_next(node_t *p)
+
 Task 6.
 Write a function that deletes all the elements of the list one by one and finally deletes the head and returns an empty pointer (NULL). The pointer to the head is passed by reference.
 void delete_list(list_ptr &list)
+
 Task 7.
 Write a function that returns a pointer to the last element of the list (the "tail" of the list). If the list is empty, the function should return an empty pointer.
 node_t *tail(node_t *list)
+
 Task 8.
 Write a function that returns the number of elements in the list.
 int count(node_t *list)
+
 Task 9.
 Write a function that adds a new element to the end of the list.
 void insertLast(node_t *list ,int x)
