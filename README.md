@@ -1,3 +1,4 @@
+____________________________________________________________________________________________________________________________________________________________________
 Playing with algorithms and data structures
 
 Exercises algorithms
@@ -9,7 +10,8 @@ The first person in the queue is placed behind this head. (figure below)
 
 The advantage of the head-dummy approach considered here is that it is easy to distinguish a situation in which we have already created a list and it is empty 
 (the pointer to the list is NOT equal to NULL, because it contains the address of the head - dummy) from a situation when the list has not been created at all
-(the pointer to the list is equal to NULL). Moreover, in the approach presented here, it is very easy to add new elements to the beginning of the list, i.e. right after the head - dummy. 
+(the pointer to the list is equal to NULL). Moreover, in the approach presented here, it is very easy to add new elements to the beginning of the list, i.e. 
+right after the head - dummy. 
 This does not require changing the pointer to the list (pointer to the head).
 
 Task 1.
